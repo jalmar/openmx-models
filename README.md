@@ -1,4 +1,4 @@
-# A repository of OpenMx twin models
+# A repository of OpenMx structural equation models
 This repository contains a collection of documented twin model specifications and related models for the OpenMx[1,2] software package for structural equation modelling  in R[3].
 
 List of models currently available:
