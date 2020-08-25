@@ -1,7 +1,7 @@
 # A repository of OpenMx structural equation models
 This repository contains a collection of structural equation models for the OpenMx \[[1](#references),[2](#references)\] software package in R \[[3](#references)\]. The models provided in this repository are based on the models I use during my research and are accompanied by detailed examples on how to use the models and interpret the output. The contents of the repository is licensed under CC BY 4.0; if you make use of these models in your own research, please refer back to this GitHub repository or cite:
 
-> Teeuw, J. "_A repository of OpenMx structural equation models_", GitHub, release 2020-08-25, https://github.com/jalmar/openmx-models; doi:  [**DOI PLACEHOLDER**]
+> Teeuw, J. "_A repository of OpenMx structural equation models_", GitHub, release 2020-08-25, https://github.com/jalmar/openmx-models; [![DOI](https://zenodo.org/badge/219534484.svg)](https://zenodo.org/badge/latestdoi/219534484)
 
 ## General instructions
 You need a working version of R statistical software (available for download from [r-project.org](https://www.r-project.org/)) with the OpenMx structural equation modelling sofware package (available for download from [openmx.ssri.psu.edu](https://openmx.ssri.psu.edu/)) installed on your computer to run the OpenMx models. See the examples provided with the models for more details on how to use them in your own research.
