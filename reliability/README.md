@@ -2,10 +2,10 @@
 ## Table of contents
 - [General Introduction](#general-introduction)
 - [Reliability modelling](#reliability-modelling)
-	* [Introduction to the measurement model](#Introduction to measurement model)
+	* [Introduction to the measurement model](#introduction-to-the-measurement-model)
 	* [The measurement model script](#the-measurement-model-script)
 	* [Example usage of a measurement model](#example-usage-of-a-measurement-model)
-- [Acknowledgement](#acknowledgement)
+- [Acknowledgements](#acknowledgements)
 - [References](#references)
 
 ## General introduction
@@ -13,7 +13,7 @@
 The main mantra of Classical Test Theory is that "any measurement is fallible" and states that unreliable measurements can result from various sources of error, including sampling bias, systemic bias, and random measurement error \[[1](#references),[2](#references)\]. Even measurements that are considered to be highly robust to measurement error, such as body height, can be affected by errors or biases in the measurements, especially in longitudinal study designs when different measurement instruments might be used on each occasion or when the constructs were measured and recorded by different raters. Measurement error attenuates the correlation coefficient between two variables, resulting in a lower _observed_ correlation than is truly present \[[3](#references)\]. To counteract this attenuation, Spearman proposed a disattenuation correction based on the reliability of the two variables to obtain the "true" association in the absence of any random error in the measurements of the variables. However, classical disattenuation relies on a correction factor that needs to be known a priori and scales with the reliability of the measurements. Consequently, a single fixed correction factor might not generalize well to other samples and is at risk of overcorrecting the strength of the "true" association \[[4](#references)\]. Instead of the classical disattenuation correction, a measurement model can obtain a latent factor that represents the reliable component of a construct based on two or more parallel scores without the need of an a priori correction factor \[[5](#references),[6](#references),[7](#references)\].
 
 ## Reliability modelling
-### Introduction
+### Introduction to the measurement model
 A measurement model can be used to derive a "true" estimate of a variable as if the measurements were free of random measurement error that can then be used to obtain a _corrected_ association with another construct \[[5](#references),[6](#references),[7](#references)\]. The "true" estimate is modelled in a structural equation model by a latent variable that explains a certain proportion of the variation that all repeated measurements of the same construct have in common (i.e. the reliable component). Any residual variance that is not shared between the measurements is then considered to be due to random measurement error (**Figure 1**).
 
 ![Two measurement models in a 2–2 (A) and 2–1 (B) configuration](./resources/MeasurementErrorModel_diagrams.png)
