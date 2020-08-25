@@ -18,7 +18,7 @@ The **[measurement model](./reliability/)** can be used to obtain a reliable est
 ## Release history
 | Release      | Description   |
 |-------------:|:--------------|
-|`2020-08-20`  | Initial commit and the release of the [measurement model](./reliability/). |
+|`2020-08-25`  | Initial commit and the release of the [measurement model](./reliability/). |
 
 ## Licensing
 <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a>&nbsp;This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
